@@ -16,7 +16,7 @@ def send_postrequest():
 
     while(1):
        face = {widthtag: width, heighttag: height ,posxtag: posx, posytag:posy}
-       r = requests.post('http://requestb.in/1bbag281', params=face)
+       r = requests.post('http://requestb.in/1bbag2', params=face)
        print r.status_code
        print r.content
 
